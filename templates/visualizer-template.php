@@ -9,7 +9,7 @@ if (!defined('ABSPATH')) {
 
     <!-- File Input for Audio File -->
     <div class="file-upload-container">
-        <input type="file" id="music-file-input" accept="audio/*" />
+        <input type="file" id="music-file-input" accept="audio/*, .mp3" />
         <label for="music-file-input" class="upload-label">Select Audio File</label>
     </div>
 
